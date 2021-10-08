@@ -44,7 +44,7 @@ function Navigation() {
           >
             <span className="navbar-toggler-icon" />
           </button>
-          <UncontrolledCollapse
+          {/* <UncontrolledCollapse
             toggler="#navbar_global"
             navbar
             className={collapseClasses}
@@ -138,7 +138,7 @@ function Navigation() {
                 </NavLink>
               </NavItem>
             </Nav>
-          </UncontrolledCollapse>
+          </UncontrolledCollapse> */}
         </Container>
       </Navbar>
     </header>

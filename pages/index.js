@@ -1,6 +1,7 @@
 import dynamic from "next/dynamic";
 import SEO from "../components/SEO";
 const Navigation = dynamic(() => import("../components/Navigation"));
+const Greetings = dynamic(() => import("../containers/Greetings"));
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
         }}
       />
       <Navigation />
+      <Greetings />
     </div>
   );
 }
