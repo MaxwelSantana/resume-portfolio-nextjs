@@ -1,11 +1,10 @@
-import Head from "next/head";
-import Image from "next/image";
+import dynamic from "next/dynamic";
 import SEO from "../components/SEO";
-import styles from "../styles/Home.module.css";
+const Navigation = dynamic(() => import("../components/Navigation"));
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <SEO
         data={{
           title: "Hanzla Tauqeer",
@@ -14,30 +13,24 @@ export default function Home() {
           image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
           url: "https://developer-portfolio-1hanzla100.vercel.app",
           keywords: [
-            "Hanzla",
-            "Hanzla Tauqeer",
-            "@1hanzla100",
-            "1hanzla100",
+            "Maxwel",
+            "Maxwel Santana",
+            "@_max_sant",
             "Portfolio",
-            "Hanzla Portfolio ",
-            "Hanzla Tauqeer Portfolio",
+            "Maxwel Portfolio ",
+            "Maxwel Santana Portfolio",
             "web developer",
             "full stack",
             "full stack web developer",
-            "mobile app developer",
-            "android developer",
-            "django",
-            "flask",
-            "django rest framework",
             "nodejs ",
             "expressjs",
             "reactjs ",
             "contextapi",
             "redux",
-            "flutter",
           ],
         }}
       />
+      <Navigation />
     </div>
   );
 }
