@@ -5,7 +5,7 @@ import { Container, Row, Col } from "reactstrap";
 
 function Education() {
   return (
-    <section className="section pb-0 bg-gradient-info my-5">
+    <section className="section bg-gradient-info my-5">
       <Container>
         <div className="d-flex px-3">
           <div>

@@ -5,10 +5,15 @@ const Greetings = dynamic(() => import("../containers/Greetings"));
 const Experience = dynamic(() => import("../containers/Experience"));
 const Education = dynamic(() => import("../containers/Education"));
 const Projects = dynamic(() => import("../containers/Projects"));
+const GithubProfileCard = dynamic(() =>
+  import("../components/GithubProfileCard")
+);
+
+import { openSource } from "../portfolio";
 
 //https://elvisdev-portfolio.netlify.app/
 
-export default function Home() {
+export default function Home({ githubProfileData }) {
   return (
     <div>
       <SEO
@@ -41,6 +46,16 @@ export default function Home() {
       <Experience />
       <Education />
       <Projects />
+      {githubProfileData && <GithubProfileCard prof={githubProfileData} />}
     </div>
   );
+}
+
+export async function getStaticProps(_) {
+  const githubProfileData = await fetch(
+    `https://api.github.com/users/${openSource.githubUserName}`
+  ).then((res) => res.json());
+  return {
+    props: { githubProfileData },
+  };
 }

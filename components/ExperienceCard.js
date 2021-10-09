@@ -15,7 +15,6 @@ import Fade from "./Fade";
 function ExperienceCard({ data }) {
   return (
     <Col lg="4">
-      <Fade left duration={1000} distance="40px">
         <Card
           style={{ flex: 1 }}
           className="shadow-lg--hover shadow border-0 text-center rounded"
@@ -49,7 +48,6 @@ function ExperienceCard({ data }) {
             </CardText>
           </CardBody>
         </Card>
-      </Fade>
     </Col>
   );
 }

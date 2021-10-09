@@ -4,7 +4,6 @@ import Fade from "./Fade";
 
 function EdutionCard({ education }) {
   return (
-    <Fade left duration={1000} distance="40px">
       <Card className="card-lift--hover shadow mt-4">
         <CardBody>
           <div className="d-flex px-3">
@@ -26,7 +25,6 @@ function EdutionCard({ education }) {
           </div>
         </CardBody>
       </Card>
-    </Fade>
   );
 }
 

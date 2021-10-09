@@ -2,14 +2,12 @@ import React from "react";
 import { experience } from "../portfolio";
 import { Container, Row } from "reactstrap";
 
-import Fade from "../components/Fade";
-
 import ExperienceCard from "../components/ExperienceCard";
 
 function Experience() {
   return (
     <section className="section section-lg">
-      <Container className="overflow-hidden">
+      <Container>
         <div className="d-flex p-4">
           <div>
             <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
