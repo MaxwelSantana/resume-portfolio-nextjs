@@ -133,23 +133,6 @@ export const educationInfo = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     ],
   },
-  {
-    schoolName: "Harvard",
-    subHeader: "Master of Science in Computer Science",
-    duration: "September 2017 - April 2019",
-    desc: "Participated in the research of XXX and published 3 papers.",
-    descBullets: [
-      "Lorem ipsum dolor sit amet, consectetfgur adipiscing elit",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    ],
-  },
-  {
-    schoolName: "Stanford University",
-    subHeader: "Bachelor of Science in Computer Science",
-    duration: "September 2013 - April 2017",
-    desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-    descBullets: ["Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit"],
-  },
 ];
 
 export const experience = [

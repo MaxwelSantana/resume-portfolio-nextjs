@@ -10,25 +10,21 @@ function Experience() {
   return (
     <section className="section section-lg">
       <Container className="overflow-hidden">
-        <Fade bottom duration={1000} distance="40px">
-          <>
-            <div className="d-flex p-4">
-              <div>
-                <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
-                  <i className="ni ni-briefcase-24 text-info" />
-                </div>
-              </div>
-              <div className="pl-4">
-                <h4 className="display-3 text-info">Experience</h4>
-              </div>
+        <div className="d-flex p-4">
+          <div>
+            <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
+              <i className="ni ni-briefcase-24 text-info" />
             </div>
-            <Row className="row-grid align-items-center">
-              {experience.map((data, i) => {
-                return <ExperienceCard key={i} data={data} />;
-              })}
-            </Row>
-          </>
-        </Fade>
+          </div>
+          <div className="pl-4">
+            <h4 className="display-3 text-info">Experience</h4>
+          </div>
+        </div>
+        <Row className="row-grid align-items-center">
+          {experience.map((data, i) => {
+            return <ExperienceCard key={i} data={data} />;
+          })}
+        </Row>
       </Container>
     </section>
   );

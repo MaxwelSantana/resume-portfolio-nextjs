@@ -1,8 +1,10 @@
 import dynamic from "next/dynamic";
 import SEO from "../components/SEO";
-import Experience from "../containers/Experience";
 const Navigation = dynamic(() => import("../components/Navigation"));
 const Greetings = dynamic(() => import("../containers/Greetings"));
+const Experience = dynamic(() => import("../containers/Experience"));
+const Education = dynamic(() => import("../containers/Education"));
+const Projects = dynamic(() => import("../containers/Projects"));
 
 //https://elvisdev-portfolio.netlify.app/
 
@@ -37,6 +39,8 @@ export default function Home() {
       <Navigation />
       <Greetings />
       <Experience />
+      <Education />
+      <Projects />
     </div>
   );
 }
