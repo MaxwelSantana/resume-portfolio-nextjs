@@ -4,7 +4,7 @@ export const greetings = {
   name: "Maxwel Santana",
   title: "Hi all, I'm Maxwel",
   description:
-    "A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python / Django / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
+    "I'm a Full Stack Developer currently studing Reactjs I'm also available for new chanllenges.",
   resumeLink: "https://cv.hanzla.ga",
 };
 
@@ -22,111 +22,11 @@ export const socialLinks = {
   linkedin: "https://www.linkedin.com/in/hanzla-tauqeer-0869281ba/",
 };
 
-export const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
-  skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    ),
-  ],
-
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "vscode-icons:file-type-html",
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "vscode-icons:file-type-css",
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "logos:sass",
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "logos:javascript",
-    },
-    {
-      skillName: "TypeScript",
-      fontAwesomeClassname: "logos:typescript-icon",
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "vscode-icons:file-type-reactjs",
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "logos:nodejs-icon",
-    },
-    {
-      skillName: "flutter",
-      fontAwesomeClassname: "logos:flutter",
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "vscode-icons:file-type-swift",
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "vscode-icons:file-type-npm",
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "vscode-icons:file-type-sql",
-    },
-    {
-      skillName: "mongoDB",
-      fontAwesomeClassname: "vscode-icons:file-type-mongo",
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "logos:aws",
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "logos:firebase",
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "logos:python",
-    },
-    {
-      skillName: "git",
-      fontAwesomeClassname: "logos:git-icon",
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "logos:docker-icon",
-    },
-  ],
-};
-
-export const SkillBars = [
-  {
-    Stack: "Frontend/Design", //Insert stack or technology you have experience in
-    progressPercentage: "90", //Insert relative proficiency in percentage
-  },
-  {
-    Stack: "Backend",
-    progressPercentage: "70",
-  },
-  {
-    Stack: "Programming",
-    progressPercentage: "60",
-  },
-];
-
 export const educationInfo = [
   {
-    schoolName: "Harvard University",
-    subHeader: "Master of Science in Computer Science",
-    duration: "September 2017 - April 2019",
+    schoolName: "Faculdade Impacta de Tecnologia",
+    subHeader: "Degree Analysis and System Development",
+    duration: "January 2015 - June 2017",
     desc: "Participated in the research of XXX and published 3 papers.",
     descBullets: [
       "Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
@@ -138,29 +38,25 @@ export const educationInfo = [
 export const experience = [
   {
     role: "Software Engineer",
-    company: "Google",
-    companylogo: "/img/icons/common/google.svg",
+    company: "BetterNow",
+    companylogo: "/img/icons/common/betternow.jpg",
     companylogoPredominantColor: "rgb(68, 132, 244)",
     date: "June 2018 – Present",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    descBullets: [
-      "Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    ],
+    desc: "Development/Maintenance of Products like, web applications, frameworks, APIs.",
   },
   {
     role: "Front-End Developer",
-    company: "Github",
-    companylogo: "/img/icons/common/github.svg",
-    date: "May 2017 – May 2018",
-    desc: "Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    company: "Isquik",
+    companylogo: "/img/icons/common/isquik.png",
+    date: "Sep 2017 – Jan 2018",
+    desc: "Development of functionalities and maintenance of the company's systems.",
   },
   {
-    role: "Software Engineer Intern",
-    company: "Airbnb",
-    companylogo: "/img/icons/common/airbnbLogo.png",
+    role: "QA Testing automation",
+    company: "Everis",
+    companylogo: "/img/icons/common/everis.png",
     date: "Jan 2015 – Sep 2015",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    desc: "Development of automated tests, using Java and Selenium as main technologies for its construction.",
   },
 ];
 
