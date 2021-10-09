@@ -157,6 +157,7 @@ export const experience = [
     role: "Software Engineer",
     company: "Google",
     companylogo: "/img/icons/common/google.svg",
+    companylogoPredominantColor: "rgb(68, 132, 244)",
     date: "June 2018 – Present",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     descBullets: [

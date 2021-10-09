@@ -1,14 +1,17 @@
 import dynamic from "next/dynamic";
 import SEO from "../components/SEO";
+import Experience from "../containers/Experience";
 const Navigation = dynamic(() => import("../components/Navigation"));
 const Greetings = dynamic(() => import("../containers/Greetings"));
+
+//https://elvisdev-portfolio.netlify.app/
 
 export default function Home() {
   return (
     <div>
       <SEO
         data={{
-          title: "Hanzla Tauqeer",
+          title: "Maxwel Santana",
           description:
             "A passionate Full Stack Web Developer and Mobile App Developer.",
           image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
@@ -33,6 +36,7 @@ export default function Home() {
       />
       <Navigation />
       <Greetings />
+      <Experience />
     </div>
   );
 }
